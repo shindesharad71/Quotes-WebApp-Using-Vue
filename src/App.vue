@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <quote-grid></quote-grid>
+        <quote-grid :quotes="quotes"></quote-grid>
     </div>
 </template>
 
