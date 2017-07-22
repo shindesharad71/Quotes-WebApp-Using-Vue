@@ -1,7 +1,7 @@
 <template>
     <div class="col-sm-6 col-md-4 col-lg-3">
         <div class="panel panel-default">
-            <div class="pane-body quote">
+            <div class="panel-body quote">
                 <slot></slot>
             </div>
         </div>
@@ -16,7 +16,9 @@ export default {
 
 <style scoped>
     .panel-body {
-        font-family: 'Arizonia', cursive;
+        font-family: 'Arizonia';
+        font-style: normal;
+        font-weight: 400;
         font-size: 24px;
         color: #6e6e6e;
     }
